@@ -1,0 +1,15 @@
+<html>
+  <head>
+    <script type="module">
+      import requireJSON from './index.js'
+      window.addEventListener('load', function(){
+        const json = requireJSON('./demo.json')
+        document.getElementById('output').innerHTML = JSON.stringify(json)
+      })
+    </script>
+  </head>
+  <body>
+    <h1>Require JSON demo</h1>
+    <div id="output"></div>
+  </body>
+</html>
