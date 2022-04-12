@@ -5,10 +5,10 @@
   "main": "index.js",
   "scripts": {
   },
-  "keywords": [],
+  "keywords": ["require", "json", "require-json", "es6", "commonjs"],
   "author": "Damien Golding",
   "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
     "jquery": "^3.3.1"
   }
 }
