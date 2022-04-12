@@ -1,12 +1,24 @@
 {
-  "name": "require-json",
+  "name": "@theopenweb/require-json",
   "version": "1.0.0",
   "description": "Synchronous require JSON loading similar to Node.js",
   "main": "index.js",
   "scripts": {
   },
   "keywords": ["require", "json", "require-json", "es6", "commonjs"],
-  "author": "Damien Golding",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theopenwebjp/require-json.git"
+  },
+  "author": "The Open Web <noreply@theopenweb.jp> (https://theopenweb.jp)",
+  "contributors": [
+    "Damien Golding <noreply@damiengolding.com> (https://damiengolding.com)"
+  ],
+  "homepage": "https://theopenweb.info",
+  "bugs": {
+    "url": "https://github.com/theopenwebjp/require-json/issues"
+  },
+  "private": false,
   "license": "MIT",
   "devDependencies": {
     "jquery": "^3.3.1"

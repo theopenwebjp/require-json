@@ -4,6 +4,10 @@ Synchronous require JSON loading similar to Node.js.
 
 ## Usage
 
+```bash
+npm install @theopenweb/require-json
+```
+
 ```javascript
 import requireJSON from './index.js'
 const json = requireJSON('./demo.json')
